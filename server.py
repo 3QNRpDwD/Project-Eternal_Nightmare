@@ -459,7 +459,7 @@ def Reset():
 	s.close()
 	messagebox.showinfo("Reset","Initialized all variables")
 
-def Server_Command():
+def Server_Command():#기능 수정중
 	global Command
 	Command=str(E.get())
 	Command=list(Command.split("/"))[0:2]
